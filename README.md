@@ -8,8 +8,8 @@ sh create_project.sh
 ```
 
 ## コンテナ起動
-デフォルトの起動時コマンドは`yarn start`になっています。
-起動時コマンドは、`docker-compose.yml`の`command`を変更してください
+デフォルトの起動時コマンドは`yarn start:dev`になっています。
+起動時コマンドを変更する場合は、`docker-compose.yml`の`command`を変更してください
 
 ```
 sh app_start.sh
