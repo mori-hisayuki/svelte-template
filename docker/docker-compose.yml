@@ -1,0 +1,22 @@
+version: '3.2'
+
+services:
+  app:
+    build:
+      context: ./app
+    environment:
+      - TZ=JST-9
+    volumes:
+      - type: bind
+        source: ../
+        target: /home/workspace
+    command: sh -c "yarn start"
+    networks:
+      - docknet
+    ports:
+      - "3000:5000"
+
+
+networks:
+  docknet:
+    external: true
