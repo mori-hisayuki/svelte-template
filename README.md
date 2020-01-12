@@ -1,28 +1,28 @@
 
 # svelte-template
 
-## Project??
+## Project作成
 ```
 cd docker/project_init/
 sh create_project.sh
 ```
 
-## ??????
-??????????????`yarn start`????????
-?????????`docker-compose.yml`?`command`?????????
+## コンテナ起動
+デフォルトの起動時コマンドは`yarn start`になっています。
+起動時コマンドは、`docker-compose.yml`の`command`を変更してください
 
 ```
 sh app_start.sh
 ```
 
-## ??????
+## コンテナ終了
 ```
 sh app_stop.sh
 ```
 
 ---
 
-*Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+*Psst â€”Â looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
 

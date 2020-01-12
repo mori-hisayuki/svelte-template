@@ -1,7 +1,7 @@
 pushd ./docker
 
-docker network remove docknet
-docker network create docknet
+docker network remove svelte-template
+docker network create svelte-template
 
 docker-compose build
 docker-compose up -d

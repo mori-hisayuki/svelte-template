@@ -2,6 +2,7 @@ version: '3.2'
 
 services:
   app:
+    image: svelte-template:dev
     build:
       context: ./app
     environment:
@@ -18,5 +19,5 @@ services:
 
 
 networks:
-  docknet:
+  svelte-template:
     external: true
