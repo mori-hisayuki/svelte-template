@@ -11,7 +11,7 @@ services:
       - type: bind
         source: ../
         target: /home/workspace
-    command: sh -c "yarn start:dev"
+    command: sh -c "yarn start"
     networks:
       - svelte-template
     ports:
