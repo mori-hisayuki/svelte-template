@@ -1,7 +1,7 @@
 pushd ./docker
 
-docker network remove svelte-template
-docker network create svelte-template
+docker network remove svelte-container
+docker network create svelte-container
 
 docker-compose build
 docker-compose up -d
