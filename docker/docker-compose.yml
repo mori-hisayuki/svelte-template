@@ -13,11 +13,11 @@ services:
         target: /home/workspace
     command: sh -c "yarn start:dev"
     networks:
-      - docknet
+      - svelte-template
     ports:
       - "5000:5000"
 
 
 networks:
   svelte-template:
-    external: true
+    external: false
