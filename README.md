@@ -1,20 +1,30 @@
-*Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+
+# svelte-template
+
+## Project??
+```
+cd docker/project_init/
+sh create_project.sh
+```
+
+## ??????
+??????????????`yarn start`????????
+?????????`docker-compose.yml`?`command`?????????
+
+```
+sh app_start.sh
+```
+
+## ??????
+```
+sh app_stop.sh
+```
 
 ---
 
-# svelte app
+*Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
+---
 
 ## Get started
 
