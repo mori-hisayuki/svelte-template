@@ -2,7 +2,7 @@ version: '3.2'
 
 services:
   app:
-    image: svelte-template:dev
+    image: svelte-example:dev
     build:
       context: ./app
     environment:
@@ -13,11 +13,11 @@ services:
         target: /home/workspace
     command: sh -c "yarn start:dev"
     networks:
-      - svelte-template
+      - svelte-example
     ports:
       - "5000:5000"
 
 
 networks:
-  svelte-template:
+  svelte-example:
     external: false
